@@ -1,0 +1,81 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5em;
+}
+#head
+{
+    margin-top: 25px;
+}
+
+
+form
+{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    width: 30vw;
+    gap: 10px;
+    padding: 15px;
+    border-radius: 5px;
+}
+form #button
+{
+    display: flex;
+    justify-content: end;
+}
+
+form button
+{
+    padding: 3px;
+}
+
+th,td
+{
+    padding-left: 15px;
+}
+
+td button
+{
+    padding: 5px;
+    margin: 5px;
+    background-color: blue;
+    border: none;
+    color: #ffffff;
+    border-radius: 3px;
+    font-size: 15px;
+    font-weight: 530;
+}
+#button-disc
+{
+    background-color: blue;
+    border: none;
+    color: #ffffff;
+    border-radius: 3px;
+    font-size: 15px;
+    font-weight: 530;
+    padding: 5px;
+}
+h2
+{
+    display: flex;
+    justify-content: center;
+}
+table 
+{
+    background-color: #ccc;
+    border-radius: 5px;
+}
+td
+{
+
+}
